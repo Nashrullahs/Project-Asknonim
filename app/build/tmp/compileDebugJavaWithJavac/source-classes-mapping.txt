@@ -1,0 +1,20 @@
+com/example/asknonim/MenuActivity.java
+ com.example.asknonim.MenuActivity
+com/example/asknonim/RegisterActivity.java
+ com.example.asknonim.RegisterActivity
+ com.example.asknonim.RegisterActivity$1
+ com.example.asknonim.RegisterActivity$2
+ com.example.asknonim.RegisterActivity$3
+ com.example.asknonim.RegisterActivity$4
+com/example/asknonim/MainActivity.java
+ com.example.asknonim.MainActivity
+ com.example.asknonim.MainActivity$1
+ com.example.asknonim.MainActivity$2
+com/example/asknonim/LoginActivity.java
+ com.example.asknonim.LoginActivity
+ com.example.asknonim.LoginActivity$1
+ com.example.asknonim.LoginActivity$2
+ com.example.asknonim.LoginActivity$3
+ com.example.asknonim.LoginActivity$4
+com/example/asknonim/BuildConfig.java
+ com.example.asknonim.BuildConfig
