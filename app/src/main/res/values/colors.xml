@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="warnaprimerapp">#064acb</color>
+    <color name="warnasekunderapp">#366ed8</color>
+    <color name="warnatambahan1">#f3a953</color>
+    <color name="warnatambahan2">#b9fffc</color>
+
+
+
 </resources>

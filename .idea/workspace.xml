@@ -17,9 +17,21 @@
   <component name="ChangeListManager">
     <list default="true" id="91509f8b-2af9-4ab5-8b78-bcd9bb3584df" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_account.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_key.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_key.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/key.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="valueResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -177,22 +189,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="21" y="144" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1607263870899" />
-    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1607278498716">
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1607402707716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607278498716" />
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1607278532946">
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607402707716" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1607402766763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607278532946" />
-    <state x="805" y="327" key="AndroidCreateXmlResourceDialog" timestamp="1607279533261">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607402766763" />
+    <state x="805" y="327" key="AndroidCreateXmlResourceDialog" timestamp="1607402482696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="805" y="327" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607279533261" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1607264172460">
+    <state x="805" y="327" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607402482696" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1607404412194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607264172460" />
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607404412194" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1607264271173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,9 +225,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607279481310" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607278207948">
+    <state x="1146" y="271" key="refactoring.ChangeSignatureDialog" timestamp="1607407439657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607278207948" />
+    <state x="1146" y="271" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607407439657" />
+    <state x="616" y="242" key="run.anything.popup" timestamp="1607403818110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607403818110" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607406809231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607406809231" />
   </component>
 </project>

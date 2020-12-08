@@ -16,5 +16,10 @@ com/example/asknonim/LoginActivity.java
  com.example.asknonim.LoginActivity$2
  com.example.asknonim.LoginActivity$3
  com.example.asknonim.LoginActivity$4
+ com.example.asknonim.LoginActivity$5
+ com.example.asknonim.LoginActivity$6
+ com.example.asknonim.LoginActivity$7
+ com.example.asknonim.LoginActivity$8
+ com.example.asknonim.LoginActivity$9
 com/example/asknonim/BuildConfig.java
  com.example.asknonim.BuildConfig

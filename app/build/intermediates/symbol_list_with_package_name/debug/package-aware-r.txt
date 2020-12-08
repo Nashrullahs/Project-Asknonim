@@ -1112,6 +1112,10 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color warnaprimerapp
+color warnasekunderapp
+color warnatambahan1
+color warnatambahan2
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -1581,6 +1585,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_action_account
+drawable ic_action_key
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1891,6 +1897,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recoverPassTv
 id rectangles
 id registerBtn
 id register_btn
