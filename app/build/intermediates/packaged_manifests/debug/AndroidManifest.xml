@@ -22,7 +22,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Asknonim" >
         <activity android:name="com.example.asknonim.LoginActivity" />
-        <activity android:name="com.example.asknonim.MenuActivity" >
+        <activity android:name="com.example.asknonim.DashboardActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -85,7 +85,15 @@
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.asknonim.com.squareup.picasso"
+            android:exported="false" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
