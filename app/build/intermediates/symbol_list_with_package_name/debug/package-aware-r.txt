@@ -1591,6 +1591,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_key
+drawable ic_add_image
 drawable ic_groupadd_black
 drawable ic_home_black
 drawable ic_launcher_background
@@ -1717,6 +1718,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id avatarIv
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1786,6 +1788,7 @@ id easeOut
 id edit_query
 id emailEt
 id emailTIL
+id emailTv
 id end
 id end_padder
 id enterAlways
@@ -1875,6 +1878,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nameTv
 id nav_home
 id nav_profile
 id nav_users
@@ -1904,6 +1908,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phoneTv
 id pin
 id position
 id postLayout
