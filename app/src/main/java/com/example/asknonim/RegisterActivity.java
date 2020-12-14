@@ -119,6 +119,9 @@ public class RegisterActivity extends AppCompatActivity {
                             //put info in hashmap
                             hashMap.put("email",email);
                             hashMap.put("uid",uid);
+                            hashMap.put("phone","");
+                            hashMap.put("name","");
+                            hashMap.put("image","");
 
                             //firebase database instance
                             FirebaseDatabase database = FirebaseDatabase.getInstance();
