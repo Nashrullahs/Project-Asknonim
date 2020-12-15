@@ -1,5 +1,7 @@
 package com.example.asknonim;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -31,8 +34,9 @@ public class ProfileFragment extends Fragment {
     DatabaseReference databaseReference;
 
     //views from xml
-    ImageView avatarIv;
+    ImageView avatarIv,coverIv;
     TextView nameTv, emailTv, phoneTv;
+    FloatingActionButton fab;
 
 
     public ProfileFragment() {
@@ -53,9 +57,11 @@ public class ProfileFragment extends Fragment {
 
         //init views
         avatarIv = view.findViewById(R.id.avatarIv);
+        coverIv = view.findViewById(R.id.coverIv);
         nameTv = view.findViewById(R.id.nameTv);
         emailTv = view.findViewById(R.id.emailTv);
         phoneTv = view.findViewById(R.id.phoneTv);
+        fab = view.findViewById(R.id.fab);
 
         Query query = databaseReference.orderByChild("email").equalTo(user.getEmail());
         query.addValueEventListener(new ValueEventListener() {
@@ -91,10 +97,40 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+        //fab button click
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showEditProfileDialog();
+            }
+        });
 
 
 
 
         return view;
+    }
+
+    private void showEditProfileDialog() {
+        /*Show dialog containing options
+        * 1) Edit Profile Picture
+        * 2) Edit Cover Photo
+        * 3) Edit Name
+        * 4) Edit Phone*/
+
+        //options to show in dialog
+        String options [] = {"Edit Profile Picture","Edit Cover Photo","Edit Name","Edit Phone"};
+        //alert dialog
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        //set title
+        builder.setTitle("Choose Action");
+        //set items to dialog
+        builder.setItems(options, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+
     }
 }

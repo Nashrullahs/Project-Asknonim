@@ -202,9 +202,10 @@ public class LoginActivity extends AppCompatActivity {
                                 //put info in hashmap
                                 hashMap.put("email",email);
                                 hashMap.put("uid",uid);
-                                hashMap.put("name","");//will add later
-                                hashMap.put("phone","");//will add later
-                                hashMap.put("image","");//will add later
+                                hashMap.put("name","");
+                                hashMap.put("phone","");
+                                hashMap.put("image","");
+                                hashMap.put("cover","");
                                 //firebase database instance
                                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                                 //path to store user data named "user/Anonim"
