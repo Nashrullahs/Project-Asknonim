@@ -122,6 +122,7 @@ public class RegisterActivity extends AppCompatActivity {
                             hashMap.put("phone","");
                             hashMap.put("name","");
                             hashMap.put("image","");
+                            hashMap.put("cover","");
 
                             //firebase database instance
                             FirebaseDatabase database = FirebaseDatabase.getInstance();

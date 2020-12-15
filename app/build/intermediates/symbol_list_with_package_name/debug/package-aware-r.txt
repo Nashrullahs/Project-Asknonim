@@ -1592,6 +1592,8 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_key
 drawable ic_add_image
+drawable ic_default_img_white
+drawable ic_edit_white
 drawable ic_groupadd_black
 drawable ic_home_black
 drawable ic_launcher_background
@@ -1753,6 +1755,7 @@ id content
 id contentPanel
 id coordinator
 id cos
+id coverIv
 id custom
 id customPanel
 id cut
@@ -1796,6 +1799,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fade
 id fill
 id fill_horizontal
