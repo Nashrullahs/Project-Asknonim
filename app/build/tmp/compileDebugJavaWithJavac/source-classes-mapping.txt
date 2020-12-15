@@ -1,9 +1,3 @@
-com/example/asknonim/HomeFragment.java
- com.example.asknonim.HomeFragment
-com/example/asknonim/BuildConfig.java
- com.example.asknonim.BuildConfig
-com/example/asknonim/UsersFragment.java
- com.example.asknonim.UsersFragment
 com/example/asknonim/DashboardActivity.java
  com.example.asknonim.DashboardActivity
  com.example.asknonim.DashboardActivity$1
@@ -13,6 +7,10 @@ com/example/asknonim/RegisterActivity.java
  com.example.asknonim.RegisterActivity$2
  com.example.asknonim.RegisterActivity$3
  com.example.asknonim.RegisterActivity$4
+com/example/asknonim/UsersFragment.java
+ com.example.asknonim.UsersFragment
+com/example/asknonim/HomeFragment.java
+ com.example.asknonim.HomeFragment
 com/example/asknonim/MainActivity.java
  com.example.asknonim.MainActivity
  com.example.asknonim.MainActivity$1
@@ -31,3 +29,15 @@ com/example/asknonim/LoginActivity.java
 com/example/asknonim/ProfileFragment.java
  com.example.asknonim.ProfileFragment
  com.example.asknonim.ProfileFragment$1
+ com.example.asknonim.ProfileFragment$2
+ com.example.asknonim.ProfileFragment$3
+ com.example.asknonim.ProfileFragment$4
+ com.example.asknonim.ProfileFragment$4$1
+ com.example.asknonim.ProfileFragment$4$2
+ com.example.asknonim.ProfileFragment$5
+ com.example.asknonim.ProfileFragment$6
+ com.example.asknonim.ProfileFragment$7
+ com.example.asknonim.ProfileFragment$7$1
+ com.example.asknonim.ProfileFragment$7$2
+com/example/asknonim/BuildConfig.java
+ com.example.asknonim.BuildConfig
