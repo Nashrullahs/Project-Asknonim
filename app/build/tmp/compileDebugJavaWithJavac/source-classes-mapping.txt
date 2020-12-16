@@ -1,6 +1,8 @@
 com/example/asknonim/DashboardActivity.java
  com.example.asknonim.DashboardActivity
  com.example.asknonim.DashboardActivity$1
+com/example/asknonim/GroupCreateActivity.java
+ com.example.asknonim.GroupCreateActivity
 com/example/asknonim/RegisterActivity.java
  com.example.asknonim.RegisterActivity
  com.example.asknonim.RegisterActivity$1

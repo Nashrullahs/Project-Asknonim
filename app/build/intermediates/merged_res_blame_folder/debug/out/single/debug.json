@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_image.png.flat",
-        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\src\\main\\res\\drawable-hdpi\\ic_add_image.png"
-    },
-    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_image.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\src\\main\\res\\drawable-hdpi\\ic_add_image.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -20,12 +20,16 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_default_img_white.png"
     },
     {
-        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_groupadd_black.png.flat",
-        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\src\\main\\res\\drawable-xxhdpi\\ic_groupadd_black.png"
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_create.xml.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\src\\main\\res\\layout\\activity_group_create.xml"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_groupadd_black.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\src\\main\\res\\drawable-xxhdpi\\ic_groupadd_black.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_image.png.flat",

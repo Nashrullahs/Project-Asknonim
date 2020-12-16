@@ -5,6 +5,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,11 +16,15 @@ import android.widget.TextView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class DashboardActivity extends AppCompatActivity {
 
     //firebase auth
     FirebaseAuth firebaseAuth;
+    DatabaseReference reference;
+
 
     ActionBar actionBar;
 
@@ -127,7 +133,12 @@ public class DashboardActivity extends AppCompatActivity {
             firebaseAuth.signOut();
             checkUserStatus();
         }
+        else if(id == R.id.action_create_group){
+            //go to Group Create Activity
+            startActivity(new Intent(DashboardActivity.this,GroupCreateActivity.class));
+        }
 
         return super.onOptionsItemSelected(item);
     }
+
 }
