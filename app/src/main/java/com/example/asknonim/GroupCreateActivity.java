@@ -16,6 +16,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+<<<<<<< HEAD
+=======
+import android.provider.ContactsContract;
+>>>>>>> 1804111010065
 import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
@@ -23,11 +27,28 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 import java.util.HashMap;
+=======
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
+
+import java.util.HashMap;
+import java.util.concurrent.ScheduledExecutorService;
+>>>>>>> 1804111010065
 
 public class GroupCreateActivity extends AppCompatActivity {
 
@@ -130,6 +151,40 @@ public class GroupCreateActivity extends AppCompatActivity {
         }
         else{
             //creating group with icon image
+<<<<<<< HEAD
+=======
+            //upload image
+            //image name and path
+            String fileNameAndPath = "Group_Imgs/" + "image" + g_timestamp;
+
+            StorageReference storageReference = FirebaseStorage.getInstance().getReference(fileNameAndPath);
+            storageReference.putFile(image_uri)
+                    .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            //image uploaded, get url
+                            Task<Uri> p_uriTask = taskSnapshot.getStorage().getDownloadUrl();
+                            while (!p_uriTask.isSuccessful());
+                            Uri p_downloadUri = p_uriTask.getResult();
+                            if (p_uriTask.isSuccessful()){
+                                createGroup(
+                                        ""+g_timestamp,
+                                        ""+groupTitle,
+                                        ""+groupDescription,
+                                        ""+p_downloadUri
+                                );
+                            }
+                        }
+                    })
+                    .addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            //failed uploading image
+                            progressDialog.dismiss();
+                            Toast.makeText(GroupCreateActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    });
+>>>>>>> 1804111010065
         }
     }
 
@@ -143,7 +198,54 @@ public class GroupCreateActivity extends AppCompatActivity {
         hashMap.put("timestamp","" +g_timestamp);
         hashMap.put("createdBy","" +firebaseAuth.getUid());
 
+<<<<<<< HEAD
         
+=======
+        //create group
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Groups");
+        ref.child(g_timestamp).setValue(hashMap)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                //created succesfully
+
+                //setup member inf (add current user in group's participantns list)
+                HashMap<String, String>hashMap1 = new HashMap<>();
+                hashMap1.put("uid",firebaseAuth.getUid());
+                hashMap1.put("role","creator");
+                hashMap1.put("timestamp", g_timestamp);
+
+                DatabaseReference ref1 = FirebaseDatabase.getInstance().getReference("Groups");
+                ref1.child(g_timestamp).child("Participants").child(firebaseAuth.getUid())
+                        .setValue(hashMap1)
+                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void aVoid) {
+                                //participant added
+                                progressDialog.dismiss();
+                                Toast.makeText(GroupCreateActivity.this, "Group created...", Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                //failed adding participant
+                                progressDialog.dismiss();
+                                Toast.makeText(GroupCreateActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
+
+                            }
+                        });
+            }
+        })
+        .addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                //failed
+                progressDialog.dismiss();
+                Toast.makeText(GroupCreateActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+>>>>>>> 1804111010065
     }
 
     private void showImagePickDialog() {
