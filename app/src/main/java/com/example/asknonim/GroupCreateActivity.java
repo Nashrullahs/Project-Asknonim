@@ -9,6 +9,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -16,6 +17,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -24,6 +26,8 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import java.util.HashMap;
 
 public class GroupCreateActivity extends AppCompatActivity {
 
@@ -54,7 +58,7 @@ public class GroupCreateActivity extends AppCompatActivity {
     private EditText groupTitleEt,groupDescriptionEt;
     private FloatingActionButton createGroupBtn;
 
-    
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,7 +102,48 @@ public class GroupCreateActivity extends AppCompatActivity {
     }
 
     private void startCreatingGroup() {
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Creating Group");
 
+        //input tittle,description
+        String groupTitle = groupTitleEt.getText().toString().trim();
+        String groupDescription = groupDescriptionEt.getText().toString().trim();
+        //validation
+        if(TextUtils.isEmpty(groupTitle)){
+            Toast.makeText(this, "Please enter group title...", Toast.LENGTH_SHORT).show();
+            return;//dont procede further
+        }
+
+        progressDialog.show();
+
+        //timestamp: for groupicon image,groupId, timeCreated etc
+        String g_timestamp = ""+System.currentTimeMillis();
+        if (image_uri == null){
+            //creating group without icon image
+
+            createGroup(
+                    ""+g_timestamp,
+                    ""+groupTitle,
+                    ""+groupDescription,
+                    ""
+            );
+        }
+        else{
+            //creating group with icon image
+        }
+    }
+
+    private void createGroup(String g_timestamp, String groupTitle, String groupDescription,String groupIcon) {
+        //setup info group
+        HashMap<String, String>hashMap = new HashMap<>();
+        hashMap.put("groupId","" +g_timestamp);
+        hashMap.put("groupTitle","" +groupTitle);
+        hashMap.put("groupDescription","" +groupDescription);
+        hashMap.put("groupIcon","" +groupIcon);
+        hashMap.put("timestamp","" +g_timestamp);
+        hashMap.put("createdBy","" +firebaseAuth.getUid());
+
+        
     }
 
     private void showImagePickDialog() {
