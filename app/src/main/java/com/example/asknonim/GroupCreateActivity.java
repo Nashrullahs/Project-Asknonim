@@ -16,10 +16,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-<<<<<<< HEAD
-=======
 import android.provider.ContactsContract;
->>>>>>> 1804111010065
 import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
@@ -27,13 +24,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-<<<<<<< HEAD
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-
-import java.util.HashMap;
-=======
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -48,7 +38,6 @@ import com.google.firebase.storage.UploadTask;
 
 import java.util.HashMap;
 import java.util.concurrent.ScheduledExecutorService;
->>>>>>> 1804111010065
 
 public class GroupCreateActivity extends AppCompatActivity {
 
@@ -151,8 +140,6 @@ public class GroupCreateActivity extends AppCompatActivity {
         }
         else{
             //creating group with icon image
-<<<<<<< HEAD
-=======
             //upload image
             //image name and path
             String fileNameAndPath = "Group_Imgs/" + "image" + g_timestamp;
@@ -184,7 +171,6 @@ public class GroupCreateActivity extends AppCompatActivity {
                             Toast.makeText(GroupCreateActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     });
->>>>>>> 1804111010065
         }
     }
 
@@ -198,9 +184,6 @@ public class GroupCreateActivity extends AppCompatActivity {
         hashMap.put("timestamp","" +g_timestamp);
         hashMap.put("createdBy","" +firebaseAuth.getUid());
 
-<<<<<<< HEAD
-        
-=======
         //create group
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Groups");
         ref.child(g_timestamp).setValue(hashMap)
@@ -245,7 +228,6 @@ public class GroupCreateActivity extends AppCompatActivity {
                 Toast.makeText(GroupCreateActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
->>>>>>> 1804111010065
     }
 
     private void showImagePickDialog() {

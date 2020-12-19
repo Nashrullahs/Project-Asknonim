@@ -61,7 +61,11 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginEnd="5dp"
+<<<<<<< HEAD
             android:text="12:12 PM"
+=======
+            android:text="The message"
+>>>>>>> master
             android:singleLine="true"
             android:layout_marginRight="5dp" />
 

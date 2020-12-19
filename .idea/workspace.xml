@@ -102,7 +102,10 @@
         <option value="valueResourceFile" />
         <option value="resourceFile" />
         <option value="layoutResourceFile" />
+<<<<<<< HEAD
         <option value="Class" />
+=======
+>>>>>>> master
       </list>
     </option>
   </component>
