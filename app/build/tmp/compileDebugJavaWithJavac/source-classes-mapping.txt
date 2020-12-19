@@ -16,6 +16,8 @@ com/example/asknonim/AdapterGroupChatList.java
  com.example.asknonim.AdapterGroupChatList
  com.example.asknonim.AdapterGroupChatList$1
  com.example.asknonim.AdapterGroupChatList$HolderGroupChatList
+com/example/asknonim/GroupChatActivity.java
+ com.example.asknonim.GroupChatActivity
 com/example/asknonim/RegisterActivity.java
  com.example.asknonim.RegisterActivity
  com.example.asknonim.RegisterActivity$1

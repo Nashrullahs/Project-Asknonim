@@ -25,7 +25,7 @@ public class DashboardActivity extends AppCompatActivity {
     FirebaseAuth firebaseAuth;
     DatabaseReference reference;
 
-
+    //actionbar
     ActionBar actionBar;
 
     @Override
