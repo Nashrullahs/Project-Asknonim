@@ -29,6 +29,12 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 
+/**
+ * kelas loginActivity digunakan untuk melakukan login akun dengan memasukkan email dan password
+ * yang telah terdaftar sebelumnya. jika tidak memiliki akun, maka dapat mengklik register
+ * dibawah button login. disini juga diberikan fitur untuk melihat dan menyembunyikan password
+ * @author khairul anwar, nashrullah, fahmi ardiansyah, fina noviantika, nona zarima, mauliza yunita
+ */
 public class LoginActivity extends AppCompatActivity {
 
     //views
@@ -57,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
         //In the onCreate() method, initialize the FirebaseAuth instance.
         mAuth = FirebaseAuth.getInstance();
 
-        //init
+        //inisialisasi
         mEmailEt= findViewById(R.id.emailEt);
         mPasswordEt= findViewById(R.id.passwordEt);
         notHaveAccntTv= findViewById(R.id.nothave_accountTv);
@@ -202,9 +208,9 @@ public class LoginActivity extends AppCompatActivity {
                                 //put info in hashmap
                                 hashMap.put("email",email);
                                 hashMap.put("uid",uid);
-                                hashMap.put("name","");
-                                hashMap.put("phone","");
-                                hashMap.put("image","");
+                                hashMap.put("name","");//will add later
+                                hashMap.put("phone","");//will add later
+                                hashMap.put("image","");//will add later
                                 hashMap.put("cover","");
                                 //firebase database instance
                                 FirebaseDatabase database = FirebaseDatabase.getInstance();
