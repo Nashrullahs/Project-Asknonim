@@ -1827,9 +1827,11 @@ id graph_wrap
 id groupDescriptionEt
 id groupIconIv
 id groupTitleEt
+id groupTitleTv
 id group_divider
 id grouping
 id groups
+id groupsRv
 id have_accountTv
 id hideable
 id home
@@ -1863,6 +1865,7 @@ id login_btn
 id masked
 id media_actions
 id message
+id messageTv
 id middle
 id mini
 id month_grid
@@ -2024,6 +2027,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id timeTv
 id title
 id titleDividerNoCustom
 id title_template
@@ -2180,6 +2184,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_groupchats_list
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
