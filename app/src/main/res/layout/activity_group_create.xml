@@ -27,31 +27,19 @@
         android:padding="10dp"
         android:hint="Group Title"/>
 
-<<<<<<< HEAD
-    <!--EditText: Group Title-->
-=======
     <!--EditText: Group Description-->
->>>>>>> 1804111010065
     <EditText
         android:id="@+id/groupDescriptionEt"
         android:minHeight="100dp"
         android:gravity="top"
-<<<<<<< HEAD
-        android:inputType="textImeMultiLine|textCapSentences"
-=======
         android:inputType="textMultiLine|textCapSentences"
->>>>>>> 1804111010065
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:layout_below="@+id/groupTitleEt"
         android:layout_marginTop="10dp"
         android:padding="10dp"
-<<<<<<< HEAD
-        android:hint="Group Title"/>
-=======
         android:hint="Group Description"/>
->>>>>>> 1804111010065
 
     <!--FAB: Create Group-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
