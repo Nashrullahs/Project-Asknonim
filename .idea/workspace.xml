@@ -16,9 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91509f8b-2af9-4ab5-8b78-bcd9bb3584df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/AdapterGroupChatList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/GroupCreateActivity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/HomeFragment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/ModelGroupChatsList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/ProfileFragment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/asknonim/UsersFragment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_key.xml" afterDir="false" />
@@ -77,6 +79,7 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_groupchats_list.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_nav.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
@@ -98,6 +101,8 @@
       <list>
         <option value="valueResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -245,6 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608090452557" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1608204660657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608204660657" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608110619930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,10 +266,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607402707716" />
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1607424298971">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1608201305247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607424298971" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608201305247" />
     <state x="644" y="259" key="AndroidCreateXmlResourceDialog" timestamp="1607876351074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,9 +315,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607403818110" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607846637172">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608208299840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607846637172" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608208299840" />
   </component>
 </project>

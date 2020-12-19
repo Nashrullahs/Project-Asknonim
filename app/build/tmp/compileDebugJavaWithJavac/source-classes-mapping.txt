@@ -12,6 +12,10 @@ com/example/asknonim/GroupCreateActivity.java
  com.example.asknonim.GroupCreateActivity$6$1
  com.example.asknonim.GroupCreateActivity$6$2
  com.example.asknonim.GroupCreateActivity$7
+com/example/asknonim/AdapterGroupChatList.java
+ com.example.asknonim.AdapterGroupChatList
+ com.example.asknonim.AdapterGroupChatList$1
+ com.example.asknonim.AdapterGroupChatList$HolderGroupChatList
 com/example/asknonim/RegisterActivity.java
  com.example.asknonim.RegisterActivity
  com.example.asknonim.RegisterActivity$1
@@ -22,6 +26,8 @@ com/example/asknonim/UsersFragment.java
  com.example.asknonim.UsersFragment
 com/example/asknonim/HomeFragment.java
  com.example.asknonim.HomeFragment
+ com.example.asknonim.HomeFragment$1
+ com.example.asknonim.HomeFragment$2
 com/example/asknonim/MainActivity.java
  com.example.asknonim.MainActivity
  com.example.asknonim.MainActivity$1
@@ -52,3 +58,5 @@ com/example/asknonim/ProfileFragment.java
  com.example.asknonim.ProfileFragment$7$2
 com/example/asknonim/BuildConfig.java
  com.example.asknonim.BuildConfig
+com/example/asknonim/ModelGroupChatsList.java
+ com.example.asknonim.ModelGroupChatsList
