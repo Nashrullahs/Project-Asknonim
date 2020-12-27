@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Asknonim">
+        <activity android:name=".GroupChatActivity"></activity>
         <activity android:name=".GroupCreateActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".DashboardActivity">
