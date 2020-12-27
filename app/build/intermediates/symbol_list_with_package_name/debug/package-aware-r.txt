@@ -1874,6 +1874,7 @@ id line3
 id linear
 id listMode
 id list_item
+id login2_btn
 id loginBtn
 id login_btn
 id masked
@@ -2135,12 +2136,18 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_choose_user
+<<<<<<< HEAD
+=======
+layout activity_choose_user_login
+>>>>>>> 1804111010061
 layout activity_dashboard
 layout activity_group_chat
 layout activity_group_create
 layout activity_login
+layout activity_login2
 layout activity_main
 layout activity_register
+layout activity_register2
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

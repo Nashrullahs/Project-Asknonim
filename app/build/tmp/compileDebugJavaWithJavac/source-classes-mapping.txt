@@ -11,12 +11,31 @@ com/example/asknonim/AdapterGroupChat.java
  com.example.asknonim.AdapterGroupChat
  com.example.asknonim.AdapterGroupChat$1
  com.example.asknonim.AdapterGroupChat$HolderGroupChat
+<<<<<<< HEAD
 com/example/asknonim/ModelGroupChat.java
  com.example.asknonim.ModelGroupChat
 com/example/asknonim/HomeFragment.java
  com.example.asknonim.HomeFragment
  com.example.asknonim.HomeFragment$1
  com.example.asknonim.HomeFragment$2
+=======
+com/example/asknonim/ChooseUserLoginActivity.java
+ com.example.asknonim.ChooseUserLoginActivity
+ com.example.asknonim.ChooseUserLoginActivity$1
+ com.example.asknonim.ChooseUserLoginActivity$2
+com/example/asknonim/Register2Activity.java
+ com.example.asknonim.Register2Activity
+ com.example.asknonim.Register2Activity$1
+ com.example.asknonim.Register2Activity$2
+ com.example.asknonim.Register2Activity$3
+ com.example.asknonim.Register2Activity$4
+com/example/asknonim/ModelGroupChat.java
+ com.example.asknonim.ModelGroupChat
+com/example/asknonim/MainActivity.java
+ com.example.asknonim.MainActivity
+ com.example.asknonim.MainActivity$1
+ com.example.asknonim.MainActivity$2
+>>>>>>> 1804111010061
 com/example/asknonim/LoginActivity.java
  com.example.asknonim.LoginActivity
  com.example.asknonim.LoginActivity$1
@@ -43,8 +62,15 @@ com/example/asknonim/ProfileFragment.java
  com.example.asknonim.ProfileFragment$7$2
 com/example/asknonim/BuildConfig.java
  com.example.asknonim.BuildConfig
+<<<<<<< HEAD
 com/example/asknonim/ModelGroupChatsList.java
  com.example.asknonim.ModelGroupChatsList
+=======
+com/example/asknonim/ChooseUserRegisterActivity.java
+ com.example.asknonim.ChooseUserRegisterActivity
+ com.example.asknonim.ChooseUserRegisterActivity$1
+ com.example.asknonim.ChooseUserRegisterActivity$2
+>>>>>>> 1804111010061
 com/example/asknonim/GroupCreateActivity.java
  com.example.asknonim.GroupCreateActivity
  com.example.asknonim.GroupCreateActivity$1
@@ -59,6 +85,11 @@ com/example/asknonim/GroupCreateActivity.java
 com/example/asknonim/AdapterGroupChatList.java
  com.example.asknonim.AdapterGroupChatList
  com.example.asknonim.AdapterGroupChatList$1
+<<<<<<< HEAD
+=======
+ com.example.asknonim.AdapterGroupChatList$2
+ com.example.asknonim.AdapterGroupChatList$2$1
+>>>>>>> 1804111010061
  com.example.asknonim.AdapterGroupChatList$HolderGroupChatList
 com/example/asknonim/GroupChatActivity.java
  com.example.asknonim.GroupChatActivity
@@ -67,6 +98,7 @@ com/example/asknonim/GroupChatActivity.java
  com.example.asknonim.GroupChatActivity$3
  com.example.asknonim.GroupChatActivity$4
  com.example.asknonim.GroupChatActivity$5
+<<<<<<< HEAD
 com/example/asknonim/ChooseUserActivity.java
  com.example.asknonim.ChooseUserActivity
  com.example.asknonim.ChooseUserActivity$1
@@ -74,3 +106,22 @@ com/example/asknonim/MainActivity.java
  com.example.asknonim.MainActivity
  com.example.asknonim.MainActivity$1
  com.example.asknonim.MainActivity$2
+=======
+com/example/asknonim/HomeFragment.java
+ com.example.asknonim.HomeFragment
+ com.example.asknonim.HomeFragment$1
+ com.example.asknonim.HomeFragment$2
+com/example/asknonim/Login2Activity.java
+ com.example.asknonim.Login2Activity
+ com.example.asknonim.Login2Activity$1
+ com.example.asknonim.Login2Activity$2
+ com.example.asknonim.Login2Activity$3
+ com.example.asknonim.Login2Activity$4
+ com.example.asknonim.Login2Activity$5
+ com.example.asknonim.Login2Activity$6
+ com.example.asknonim.Login2Activity$7
+ com.example.asknonim.Login2Activity$8
+ com.example.asknonim.Login2Activity$9
+com/example/asknonim/ModelGroupChatsList.java
+ com.example.asknonim.ModelGroupChatsList
+>>>>>>> 1804111010061
