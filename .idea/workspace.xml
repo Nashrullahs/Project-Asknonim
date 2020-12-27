@@ -32,11 +32,8 @@
       <list>
         <option value="valueResourceFile" />
         <option value="resourceFile" />
-        <option value="layoutResourceFile" />
-<<<<<<< HEAD
         <option value="Class" />
-=======
->>>>>>> master
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -58,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -206,10 +203,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607402707716" />
+<<<<<<< HEAD
     <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1608390941640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608390941640" />
+=======
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1608382337961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608382337961" />
+>>>>>>> master
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608201305247" />
     <state x="644" y="259" key="AndroidCreateXmlResourceDialog" timestamp="1607876351074">
       <screen x="0" y="0" width="1536" height="824" />
@@ -245,7 +249,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608376739101" />
+<<<<<<< HEAD
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1608392934510">
+=======
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1607279481310">
+>>>>>>> master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608392934510" />
