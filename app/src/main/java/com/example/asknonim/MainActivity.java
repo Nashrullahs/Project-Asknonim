@@ -8,10 +8,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
 
+public class MainActivity extends AppCompatActivity {
     //Tampilan(views)
-    Button mRegisterBtn, mLoginBtn;
+    Button mChooseUserBtn, mLoginBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,15 +19,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //init views
-        mRegisterBtn = findViewById(R.id.register_btn);
+
+        mChooseUserBtn = findViewById(R.id.chooseUser_btn);
         mLoginBtn = findViewById(R.id.login_btn);
 
         //handle register button click
-        mRegisterBtn.setOnClickListener(new View.OnClickListener(){
+        mChooseUserBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v){
                 //start register activity
-                startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+                startActivity(new Intent(MainActivity.this, ChooseUserActivity.class));
             }
         });
         //handle login button

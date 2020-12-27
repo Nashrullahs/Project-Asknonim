@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="20dp"
+tools:context=".ChooseUserActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Pilih User"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dosen" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/mahasiswa" />
+
+    <Button
+        android:id="@+id/register_btn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Dosen" />
+
+    <Button
+        android:id="@+id/register2_btn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="Mahasiswa" />
+
+</RelativeLayout>

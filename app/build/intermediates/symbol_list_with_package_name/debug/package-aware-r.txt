@@ -1559,6 +1559,9 @@ drawable abc_vector_test
 drawable asknonim_logo
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_receiver
+drawable bg_sender
+drawable bg_text
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1592,16 +1595,20 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dosen
+drawable editextstyle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_key
 drawable ic_add_image
+drawable ic_attach_black
 drawable ic_default_img_white
 drawable ic_done_white
 drawable ic_edit_white
 drawable ic_group_primary
 drawable ic_group_white
 drawable ic_groupadd_black
+drawable ic_groupadd_white
 drawable ic_home_black
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1610,7 +1617,10 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_profile_black
+drawable ic_send
+drawable icon
 drawable key
+drawable mahasiswa
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1724,6 +1734,7 @@ id animateToEnd
 id animateToStart
 id asConfigured
 id async
+id attachBtn
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -1745,6 +1756,8 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id chatLayout
+id chatRv
 id checkbox
 id checked
 id chip
@@ -1752,6 +1765,7 @@ id chip1
 id chip2
 id chip3
 id chip_group
+id chooseUser_btn
 id chronometer
 id clear_text
 id clip_horizontal
@@ -1865,6 +1879,7 @@ id login_btn
 id masked
 id media_actions
 id message
+id messageEt
 id messageTv
 id middle
 id mini
@@ -1900,7 +1915,6 @@ id multiply
 id nameTv
 id nav_home
 id nav_profile
-id nav_users
 id navigation
 id navigation_header_container
 id never
@@ -1937,6 +1951,7 @@ id radio
 id ratio
 id recoverPassTv
 id rectangles
+id register2_btn
 id registerBtn
 id register_btn
 id reverseSawtooth
@@ -1967,6 +1982,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id sendBtn
 id shortcut
 id showCustom
 id showHome
@@ -2032,6 +2048,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2117,6 +2134,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_choose_user
 layout activity_dashboard
 layout activity_group_chat
 layout activity_group_create
@@ -2141,7 +2159,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
 layout fragment_profile
-layout fragment_users
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2185,6 +2202,8 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_groupchat_left
+layout row_groupchat_right
 layout row_groupchats_list
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -2267,6 +2286,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fcm_fallback_notification_channel_label
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
