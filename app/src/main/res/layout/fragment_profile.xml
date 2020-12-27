@@ -32,7 +32,6 @@
                 <ImageView
                     android:id="@+id/avatarIv"
                     android:layout_marginStart="20dp"
-                    android:background="@color/warnasekunderapp"
                     android:padding="5dp"
                     android:src="@drawable/ic_default_img_white"
                     android:layout_width="120dp"

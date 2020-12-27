@@ -2,6 +2,7 @@ package com.example.asknonim;
 
 import android.content.Context;
 import android.content.Intent;
+import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +12,16 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Locale;
 
 public class AdapterGroupChatList extends RecyclerView.Adapter<AdapterGroupChatList.HolderGroupChatList>{
 
@@ -42,6 +50,13 @@ public class AdapterGroupChatList extends RecyclerView.Adapter<AdapterGroupChatL
         String groupIcon = model.getGroupIcon();
         String groupTitle = model.getGroupTitle();
 
+        holder.nameTv.setText("");
+        holder.timeTv.setText("");
+        holder.messageTv.setText("");
+
+        //load last message and message-time
+        loadLastMessage(model, holder);
+
         //set data
         holder.groupTitleTv.setText(groupTitle);
         try {
@@ -56,11 +71,61 @@ public class AdapterGroupChatList extends RecyclerView.Adapter<AdapterGroupChatL
             @Override
             public void onClick(View view) {
                 //open group chat
-                Intent intent = new Intent (context, GroupCreateActivity.class);
+                Intent intent = new Intent (context, GroupChatActivity.class);
                 intent.putExtra("groupId",groupId);
                 context.startActivity(intent);
             }
         });
+    }
+
+    private void loadLastMessage(ModelGroupChatsList model, HolderGroupChatList holder) {
+        //get last message from group
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Groups");
+        ref.child(model.getGroupId()).child("Messages").limitToLast(1)//get last item(messages) from that child
+                .addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        for (DataSnapshot ds: dataSnapshot.getChildren()){
+
+                            //get data
+                            String message = ""+ds.child("message").getValue();
+                            String timestamp = ""+ds.child("timestamp").getValue();
+                            String sender = ""+ds.child("sender").getValue();
+
+                            //convert time
+                            Calendar cal = Calendar.getInstance(Locale.ENGLISH);
+                            cal.setTimeInMillis(Long.parseLong(timestamp));
+                            String dateTime = DateFormat.format("dd/MM/yyyy hh:mm aa",cal).toString();
+
+                            holder.messageTv.setText(message);
+                            holder.timeTv.setText((dateTime));
+
+                            //get info of sender of last message
+                            DatabaseReference ref = FirebaseDatabase.getInstance().getReference("User");
+                            ref.orderByChild("uid").equalTo(sender)
+                                    .addValueEventListener(new ValueEventListener() {
+                                        @Override
+                                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                            for (DataSnapshot ds: dataSnapshot.getChildren()){
+                                                String name = ""+ds.child("name").getValue();
+                                                holder.nameTv.setText(name);
+                                            }
+
+                                        }
+
+                                        @Override
+                                        public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                                        }
+                                    });
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
     }
 
     @Override
