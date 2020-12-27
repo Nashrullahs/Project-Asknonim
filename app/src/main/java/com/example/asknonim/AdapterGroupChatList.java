@@ -1,6 +1,7 @@
 package com.example.asknonim;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,7 +38,7 @@ public class AdapterGroupChatList extends RecyclerView.Adapter<AdapterGroupChatL
     public void onBindViewHolder(@NonNull HolderGroupChatList holder, int position) {
         //get data
         ModelGroupChatsList model = groupChatsLists.get(position);
-        String groupId = model.getGroupId();
+        final String groupId = model.getGroupId();
         String groupIcon = model.getGroupIcon();
         String groupTitle = model.getGroupTitle();
 
@@ -54,7 +55,10 @@ public class AdapterGroupChatList extends RecyclerView.Adapter<AdapterGroupChatL
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //will do later
+                //open group chat
+                Intent intent = new Intent (context, GroupCreateActivity.class);
+                intent.putExtra("groupId",groupId);
+                context.startActivity(intent);
             }
         });
     }
@@ -66,8 +70,6 @@ public class AdapterGroupChatList extends RecyclerView.Adapter<AdapterGroupChatL
 
     //view holder class
     class HolderGroupChatList extends RecyclerView.ViewHolder{
-
-
 
         //ui views
         private ImageView groupIconIv;
