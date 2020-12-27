@@ -9,6 +9,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 =======
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
@@ -21,5 +25,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
+<<<<<<< HEAD
 >>>>>>> 1804111010065
+=======
+>>>>>>> 1804111010061
+>>>>>>> master
 </resources>

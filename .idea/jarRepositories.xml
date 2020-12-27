@@ -22,6 +22,14 @@
       <option name="name" value="Google" />
       <option name="url" value="https://dl.google.com/dl/android/maven2/" />
     </remote-repository>
+<<<<<<< HEAD
+=======
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://jitpack.io" />
+    </remote-repository>
+>>>>>>> master
   </component>
 =======
 <?xml version="1.0" encoding="UTF-8"?>
@@ -53,5 +61,9 @@
       <option name="url" value="https://jitpack.io" />
     </remote-repository>
   </component>
+<<<<<<< HEAD
 >>>>>>> 1804111010065
+=======
+>>>>>>> 1804111010061
+>>>>>>> master
 </project>

@@ -9,7 +9,11 @@
     <item android:id="@+id/action_create_group"
         android:title="Create Group"
         app:showAsAction="always"
+<<<<<<< HEAD
         android:icon="@drawable/ic_groupadd_black"/>
+=======
+        android:icon="@drawable/ic_groupadd_white"/>
+>>>>>>> master
 
 =======
 <?xml version="1.0" encoding="utf-8"?>
@@ -24,5 +28,9 @@
         app:showAsAction="always"
         android:icon="@drawable/ic_groupadd_white"/>
 
+<<<<<<< HEAD
 >>>>>>> 1804111010065
+=======
+>>>>>>> 1804111010061
+>>>>>>> master
 </menu>

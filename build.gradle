@@ -18,6 +18,10 @@ allprojects {
     repositories {
         google()
         jcenter()
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     }
 }
 
@@ -49,5 +53,9 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+<<<<<<< HEAD
 >>>>>>> 1804111010065
+=======
+>>>>>>> 1804111010061
+>>>>>>> master
 }
