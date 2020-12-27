@@ -3,19 +3,23 @@ package com.example.asknonim;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.view.Display;
 import android.view.View;
+import android.view.Window;
 import android.widget.Adapter;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
+
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -49,13 +53,20 @@ public class GroupChatActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        try
+        {
+            this.getSupportActionBar().hide();
+        }
+        catch (NullPointerException e){}
+
         setContentView(R.layout.activity_group_chat);
 
         //init views
         toolbar = findViewById(R.id.toolbar);
         groupIconIv = findViewById(R.id.groupIconIv);
         groupTitleTv = findViewById(R.id.groupTitleTv);
-        attachBtn = findViewById(R.id.attachBtn);
+        //attachBtn = findViewById(R.id.attachBtn);
         messageEt = findViewById(R.id.messageEt);
         sendBtn = findViewById(R.id.sendBtn);
         chatRv = findViewById(R.id.chatRv);
@@ -88,7 +99,30 @@ public class GroupChatActivity extends AppCompatActivity {
     }
 
     private void loadGroupMessages() {
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("")
+        //init list
+        groupChatList = new ArrayList<>();
+
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Groups");
+        ref.child(groupId).child("Messages")
+                .addValueEventListener(new ValueEventListener() {
+                    @Override
+                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        groupChatList.clear();
+                        for (DataSnapshot ds: dataSnapshot.getChildren()){
+                            ModelGroupChat model = ds.getValue(ModelGroupChat.class);
+                            groupChatList.add(model);
+                        }
+                        //adapter
+                        adapterGroupChat = new AdapterGroupChat(GroupChatActivity.this, groupChatList);
+                        //set to recyclerview
+                        chatRv.setAdapter(adapterGroupChat);
+                     }
+
+                     @Override
+                     public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                     }
+                });
     }
 
     private void sendMessage(String message) {
@@ -111,6 +145,8 @@ public class GroupChatActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(Void aVoid) {
                         //message sent
+                        //clear messageEt
+                        messageEt.setText("");
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -147,7 +183,7 @@ public class GroupChatActivity extends AppCompatActivity {
                     }
 
                     @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
 
                     }
                 });
