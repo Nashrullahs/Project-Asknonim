@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#Sat Dec 19 20:02:07 ICT 2020
-=======
-#Sun Dec 27 18:09:34 ICT 2020
->>>>>>> 1804111010065
-=======
-#Sun Dec 27 13:26:36 ICT 2020
->>>>>>> master
+#Sun Dec 27 18:53:37 ICT 2020
 base.0=C\:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
-=======
-#Sun Dec 27 17:14:07 ICT 2020
-base.0=C\:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
->>>>>>> 1804111010061

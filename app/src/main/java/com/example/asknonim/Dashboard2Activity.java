@@ -1,6 +1,5 @@
 package com.example.asknonim;
 
-<<<<<<< HEAD
 import androidx.annotation.NonNull;
         import androidx.appcompat.app.ActionBar;
         import androidx.appcompat.app.AppCompatActivity;
@@ -29,19 +28,10 @@ public class Dashboard2Activity extends AppCompatActivity {
     //actionbar
     ActionBar actionBar;
 
-=======
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-public class Dashboard2Activity extends AppCompatActivity {
-
->>>>>>> master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard2);
-<<<<<<< HEAD
 
         //Actionbar and its title
         actionBar = getSupportActionBar();
@@ -131,7 +121,4 @@ public class Dashboard2Activity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-=======
-    }
->>>>>>> master
 }

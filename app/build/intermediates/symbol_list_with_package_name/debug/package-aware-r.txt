@@ -1005,6 +1005,8 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
+color ic_launcher_background_asknonim
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1609,10 +1611,7 @@ drawable ic_group_primary
 drawable ic_group_white
 drawable ic_groupadd_black
 drawable ic_groupadd_white
-<<<<<<< HEAD
 drawable ic_groupsearch_black
-=======
->>>>>>> master
 drawable ic_home_black
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1738,7 +1737,6 @@ id animateToEnd
 id animateToStart
 id asConfigured
 id async
-id attachBtn
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -1920,10 +1918,7 @@ id multiply
 id nameTv
 id nav_home
 id nav_profile
-<<<<<<< HEAD
 id nav_searchGroup
-=======
->>>>>>> master
 id navigation
 id navigation_header_container
 id never
@@ -2144,14 +2139,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_choose_user
-<<<<<<< HEAD
 layout activity_choose_user_login
-=======
-<<<<<<< HEAD
-=======
-layout activity_choose_user_login
->>>>>>> 1804111010061
->>>>>>> master
 layout activity_dashboard
 layout activity_dashboard2
 layout activity_group_chat
@@ -2248,6 +2236,7 @@ menu menu2_nav
 menu menu_main
 menu menu_nav
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

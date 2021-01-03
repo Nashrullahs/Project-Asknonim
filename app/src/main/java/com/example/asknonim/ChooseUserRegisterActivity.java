@@ -1,9 +1,6 @@
 package com.example.asknonim;
 
-<<<<<<< HEAD
 import androidx.appcompat.app.ActionBar;
-=======
->>>>>>> master
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -26,14 +23,12 @@ public class ChooseUserRegisterActivity extends AppCompatActivity {
         mRegisterBtn = findViewById(R.id.register_btn);
         mRegisterBtn2 = findViewById(R.id.register2_btn);
 
-<<<<<<< HEAD
         //enable back button
         ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("");
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
 
-=======
->>>>>>> master
         //handle register button click
         mRegisterBtn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -51,13 +46,10 @@ public class ChooseUserRegisterActivity extends AppCompatActivity {
             }
         });
     }
-<<<<<<< HEAD
 
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();//go previous activity
         return super.onSupportNavigateUp();
     }
-=======
->>>>>>> master
 }

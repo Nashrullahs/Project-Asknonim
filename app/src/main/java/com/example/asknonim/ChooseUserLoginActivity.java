@@ -1,9 +1,6 @@
 package com.example.asknonim;
 
-<<<<<<< HEAD
 import androidx.appcompat.app.ActionBar;
-=======
->>>>>>> master
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -26,14 +23,12 @@ public class ChooseUserLoginActivity extends AppCompatActivity {
         mLoginBtn = findViewById(R.id.login_btn);
         mLoginBtn2 = findViewById(R.id.login2_btn);
 
-<<<<<<< HEAD
         //enable back button
         ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("");
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
 
-=======
->>>>>>> master
         //handle register button click
         mLoginBtn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -50,15 +45,11 @@ public class ChooseUserLoginActivity extends AppCompatActivity {
                 startActivity(new Intent(ChooseUserLoginActivity.this, Login2Activity.class));
             }
         });
-<<<<<<< HEAD
     }
 
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();//go previous activity
         return super.onSupportNavigateUp();
-=======
-
->>>>>>> master
     }
 }
