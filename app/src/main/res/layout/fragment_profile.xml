@@ -18,6 +18,7 @@
                 android:id="@+id/coverIv"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
+                android:scaleType="fitXY"
                 android:background="@color/warnaprimerapp">
             </ImageView>
 
@@ -31,7 +32,6 @@
                 <ImageView
                     android:id="@+id/avatarIv"
                     android:layout_marginStart="20dp"
-                    android:background="@color/warnasekunderapp"
                     android:padding="5dp"
                     android:src="@drawable/ic_default_img_white"
                     android:layout_width="120dp"
@@ -41,7 +41,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="#77000000">
 
                     <TextView
                         android:id="@+id/nameTv"

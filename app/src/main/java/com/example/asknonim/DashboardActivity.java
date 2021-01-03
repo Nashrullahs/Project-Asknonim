@@ -5,6 +5,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,12 +16,16 @@ import android.widget.TextView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class DashboardActivity extends AppCompatActivity {
 
     //firebase auth
     FirebaseAuth firebaseAuth;
+    DatabaseReference reference;
 
+    //actionbar
     ActionBar actionBar;
 
     @Override
@@ -68,14 +74,6 @@ public class DashboardActivity extends AppCompatActivity {
                             FragmentTransaction ft2 = getSupportFragmentManager().beginTransaction();
                             ft2.replace(R.id.content,fragment2,"");
                             ft2.commit();
-                            return true;
-                        case R.id.nav_users:
-                            //add group fragment transaction
-                            actionBar.setTitle("Add Group");//Change actionbar title
-                            UsersFragment fragment3 = new UsersFragment();
-                            FragmentTransaction ft3 = getSupportFragmentManager().beginTransaction();
-                            ft3.replace(R.id.content,fragment3,"");
-                            ft3.commit();
                             return true;
                     }
                     return false;
@@ -127,7 +125,12 @@ public class DashboardActivity extends AppCompatActivity {
             firebaseAuth.signOut();
             checkUserStatus();
         }
+        else if(id == R.id.action_create_group){
+            //go to Group Create Activity
+            startActivity(new Intent(DashboardActivity.this,GroupCreateActivity.class));
+        }
 
         return super.onOptionsItemSelected(item);
     }
+
 }
