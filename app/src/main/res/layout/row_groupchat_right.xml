@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -40,47 +39,4 @@
         android:layout_marginRight="5dp"
         android:textSize="12sp"/>
 
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/bg_sender"
-    android:layout_marginLeft="100dp"
-    android:layout_marginTop="10dp"
-    android:padding="10dp">
-
-    <TextView
-        android:id="@+id/nameTv"
-        android:text="Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:visibility="gone"
-        android:textColor="@color/warnaprimerapp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/messageTv"
-        android:layout_below="@+id/nameTv"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The message"
-        android:textColor="@color/black"/>
-
-    <TextView
-        android:id="@+id/timeTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="Time"
-        android:layout_below="@id/messageTv"
-        android:layout_marginRight="5dp"
-        android:textSize="12sp"/>
-
->>>>>>> 1804111010061
 </RelativeLayout>

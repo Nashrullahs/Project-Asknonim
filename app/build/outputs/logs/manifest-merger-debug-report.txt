@@ -2,6 +2,7 @@
 manifest
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-35:12
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-35:12
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-35:12
@@ -25,6 +26,12 @@ INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\A
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-37:12
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-37:12
 >>>>>>> 1804111010065
+=======
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+>>>>>>> master
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\khair\.gradle\caches\transforms-2\files-2.1\a662a09f936ef9769e962d90fad0478e\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\khair\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\khair\.gradle\caches\transforms-2\files-2.1\f65e7d690d0436991c66205f0487ed30\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -93,6 +100,7 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\khair\.
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\khair\.gradle\caches\transforms-2\files-2.1\8381bbf20898b9ff376e783de7687dd6\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-35:12
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-35:12
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-35:12
@@ -112,6 +120,11 @@ INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\A
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-37:12
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-37:12
 >>>>>>> 1804111010065
+=======
+INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+>>>>>>> master
 	package
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml
@@ -120,6 +133,7 @@ INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\A
 		INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml
 	android:versionCode
@@ -147,6 +161,13 @@ INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\A
 		INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-37:12
 >>>>>>> 1804111010065
+=======
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:1-36:12
+>>>>>>> master
 		INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:2:11-69
@@ -179,6 +200,7 @@ ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\Andr
 application
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:9:5-33:19
 =======
 <<<<<<< HEAD
@@ -190,6 +212,9 @@ ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\Andr
 =======
 ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:9:5-35:19
 >>>>>>> 1804111010065
+=======
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:9:5-34:19
+>>>>>>> master
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\khair\.gradle\caches\transforms-2\files-2.1\a662a09f936ef9769e962d90fad0478e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\khair\.gradle\caches\transforms-2\files-2.1\a662a09f936ef9769e962d90fad0478e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\khair\.gradle\caches\transforms-2\files-2.1\e9a7396e1444c212720c909ece4c39d7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -254,12 +279,18 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\kh
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:15:9-46
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 activity#com.example.asknonim.GroupParticipantAddActivity
 ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:16:9-74
 	android:name
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:16:19-62
+<<<<<<< HEAD
 >>>>>>> 1804111010065
+=======
+>>>>>>> master
 activity#com.example.asknonim.Dashboard2Activity
 ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:17:9-56
 	android:name
@@ -274,6 +305,7 @@ ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\Andr
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:19:19-58
 activity#com.example.asknonim.Register2Activity
 ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:20:9-55
+<<<<<<< HEAD
 	android:name
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:20:19-52
 activity#com.example.asknonim.ChooseUserRegisterActivity
@@ -335,82 +367,57 @@ ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\Andr
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:19:19-48
 activity#com.example.asknonim.DashboardActivity
 ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:20:9-26:20
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:20:19-52
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:21:13-25:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:22:17-69
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:22:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:24:17-77
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:24:27-74
-activity#com.example.asknonim.RegisterActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:27:9-54
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:27:19-51
-activity#com.example.asknonim.MainActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:28:9-50
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:28:19-47
 =======
-activity#com.example.asknonim.Login2Activity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:16:9-61
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:16:19-49
-activity#com.example.asknonim.ChooseUserLoginActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:17:9-61
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:17:19-58
-activity#com.example.asknonim.Register2Activity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:18:9-55
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:18:19-52
-activity#com.example.asknonim.ChooseUserRegisterActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:19:9-64
-	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:19:19-61
-activity#com.example.asknonim.GroupChatActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:20:9-55
+>>>>>>> master
 	android:name
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:20:19-52
+activity#com.example.asknonim.ChooseUserRegisterActivity
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:21:9-64
+	android:name
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:21:19-61
+activity#com.example.asknonim.GroupChatActivity
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:22:9-55
+	android:name
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:22:19-52
 activity#com.example.asknonim.GroupCreateActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:21:9-57
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:23:9-57
 	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:21:19-54
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:23:19-54
 activity#com.example.asknonim.LoginActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:22:9-51
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:24:9-51
 	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:22:19-48
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:24:19-48
 activity#com.example.asknonim.DashboardActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:23:9-29:20
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:23:19-52
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:25:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.asknonim.RegisterActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:30:9-54
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:32:9-54
 	android:name
-		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:30:19-51
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:32:19-51
 activity#com.example.asknonim.MainActivity
-ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:31:9-50
+ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:33:9-50
 	android:name
+<<<<<<< HEAD
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:31:19-47
 >>>>>>> 1804111010061
 >>>>>>> master
 =======
 		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:32:27-74
 >>>>>>> 1804111010065
+=======
+		ADDED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml:33:19-47
+>>>>>>> master
 uses-sdk
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\AndroidManifest.xml

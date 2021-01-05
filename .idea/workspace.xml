@@ -25,13 +25,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5_API_29]" />
 =======
+=======
+>>>>>>> master
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+<<<<<<< HEAD
 >>>>>>> 1804111010065
+=======
+>>>>>>> master
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -44,17 +50,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-        <option value="resourceFile" />
-=======
-        <option value="layoutResourceFile" />
->>>>>>> master
-        <option value="Class" />
-        <option value="resourceFile" />
-        <option value="layoutResourceFile" />
 <<<<<<< HEAD
+        <option value="resourceFile" />
 =======
         <option value="layoutResourceFile" />
+>>>>>>> master
         <option value="Class" />
+=======
+>>>>>>> master
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+<<<<<<< HEAD
         <option value="resourceFile" />
 >>>>>>> 1804111010065
 =======
@@ -65,6 +72,8 @@
         <option value="layoutResourceFile" />
         <option value="Class" />
 >>>>>>> 1804111010065
+=======
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -97,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.1091681687">
+<<<<<<< HEAD
       <recent name="com.example.asknonim" />
     </key>
     <key name="android.template.-902452363">
@@ -121,14 +131,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
     <key name="android.template.1404861418">
-      <recent name="com.example.asknonim" />
-    </key>
 =======
-<<<<<<< HEAD
->>>>>>> master
-    <key name="android.template.539749815">
       <recent name="com.example.asknonim" />
     </key>
+    <key name="android.template.-902452363">
+      <recent name="com.example.asknonim" />
+    </key>
+    <key name="android.template.1678658952">
+>>>>>>> master
+      <recent name="com.example.asknonim" />
+    </key>
+    <key name="android.template.1042452495">
+      <recent name="com.example.asknonim" />
+    </key>
+<<<<<<< HEAD
     <key name="android.template.1953291120">
 =======
     <key name="android.template.1404861418">
@@ -136,19 +152,16 @@
 =======
     <key name="android.template.1698133776">
 >>>>>>> 1804111010065
+=======
+    <key name="android.template.1698133776">
+>>>>>>> master
       <recent name="com.example.asknonim" />
     </key>
-<<<<<<< HEAD
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\res\drawable" />
-      <recent name="C:\Users\khair\AndroidStudioProjects\Asknonim\app\src\main\res\drawable" />
-=======
     <key name="android.template.539749815">
       <recent name="com.example.asknonim" />
     </key>
     <key name="android.template.1953291120">
       <recent name="com.example.asknonim" />
->>>>>>> master
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\res\drawable" />
@@ -261,13 +274,8 @@
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1609056617574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-<<<<<<< HEAD
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609056617574" />
-=======
 <<<<<<< HEAD
-    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608090452557" />
-=======
-    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609056617574" />
 <<<<<<< HEAD
 >>>>>>> 1804111010061
 >>>>>>> master
@@ -275,6 +283,9 @@
 =======
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1609485920207">
 >>>>>>> 1804111010065
+=======
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1609485920207">
+>>>>>>> master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608470420752" />
@@ -292,6 +303,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607402707716" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,6 +339,13 @@
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608390941640" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609606584287" />
 >>>>>>> 1804111010065
+=======
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1609478441358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608390941640" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609478441358" />
+>>>>>>> master
     <state x="644" y="259" key="AndroidCreateXmlResourceDialog" timestamp="1607876351074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -336,6 +355,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608392395855" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607486456681" />
 <<<<<<< HEAD
@@ -351,10 +371,15 @@
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609315239785" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1609611933927">
 >>>>>>> 1804111010065
+=======
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609315239785" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1609067793721">
+>>>>>>> master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553768" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
@@ -372,10 +397,15 @@
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
     <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1609611933927">
 >>>>>>> 1804111010065
+=======
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609067793721" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1609067793721">
+>>>>>>> master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553768" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
@@ -393,10 +423,15 @@
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
     <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1609611933927">
 >>>>>>> 1804111010065
+=======
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609067793721" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1609067793721">
+>>>>>>> master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553767" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
@@ -414,10 +449,15 @@
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
     <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1609611933927">
 >>>>>>> 1804111010065
+=======
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609067793721" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1609067793721">
+>>>>>>> master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553768" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
@@ -431,23 +471,14 @@
 =======
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
 >>>>>>> 1804111010065
+=======
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609067793721" />
+>>>>>>> master
     <state x="461" y="165" key="SettingsEditor" timestamp="1608376739101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608376739101" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1608392934510">
-=======
-    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1607279481310">
->>>>>>> master
-=======
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1609049070411">
->>>>>>> 1804111010065
-=======
-    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1609049070411">
->>>>>>> master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474744100" />
@@ -464,6 +495,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607403818110" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -486,6 +518,11 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609487077425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+=======
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609487077425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+>>>>>>> master
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609487077425" />
   </component>
   <component name="XDebuggerManager">
@@ -498,6 +535,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+<<<<<<< HEAD
 >>>>>>> 1804111010065
+=======
+>>>>>>> master
   </component>
 </project>

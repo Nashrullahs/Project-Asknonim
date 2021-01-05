@@ -5,11 +5,7 @@
     android:title="Home"
     android:icon="@drawable/ic_home_black"/>
 
-<<<<<<< HEAD
 <item android:id="@+id/nav_searchGroup"
-=======
-<item android:id="@+id/nav_profile"
->>>>>>> master
     android:title="Search Group"
     android:icon="@drawable/ic_groupsearch_black"/>
 </menu>
