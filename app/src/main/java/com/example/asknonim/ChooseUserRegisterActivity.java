@@ -29,6 +29,7 @@ public class ChooseUserRegisterActivity extends AppCompatActivity {
 <<<<<<< HEAD
         //enable back button
         ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("");
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
 

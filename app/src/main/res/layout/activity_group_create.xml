@@ -28,6 +28,7 @@
         android:padding="10dp"
         android:hint="Group Title"/>
 
+
     <!--EditText: Group Description-->
     <EditText
         android:id="@+id/groupDescriptionEt"
