@@ -13,23 +13,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Asknonim">
-        <activity android:name=".Dashboard2Activity"></activity>
+        <activity android:name=".GroupParticipantAddActivity"></activity>
+        <activity android:name=".Dashboard2Activity" />
         <activity android:name=".Login2Activity" />
         <activity android:name=".ChooseUserLoginActivity" />
         <activity android:name=".Register2Activity" />
         <activity android:name=".ChooseUserRegisterActivity" />
         <activity android:name=".GroupChatActivity" />
         <activity android:name=".GroupCreateActivity" />
+        <activity android:name=".DashboardActivity"/>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".DashboardActivity">
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

@@ -16,6 +16,10 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_send.xml"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_white.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_send.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-hdpi\\ic_send.png"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_default_img_white.xml.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_default_img_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login2.xml.flat",
@@ -64,12 +72,12 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xhdpi\\ic_edit_white.png"
     },
     {
-        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dosen.jpg.flat",
-        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable\\dosen.jpg"
-    },
-    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_groupsearch_black.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_groupsearch_black.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dosen.jpg.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable\\dosen.jpg"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_groupsearch_black.png.flat",
@@ -108,6 +116,10 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\menu\\menu2_main.xml"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_participant_add.xml.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\activity_group_participant_add.xml"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_group_white.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-hdpi\\ic_group_white.png"
     },
@@ -116,8 +128,16 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-hdpi\\ic_add_white.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_edit_white.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_edit_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_default_img.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_default_img.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_white.png.flat",
@@ -152,8 +172,28 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-mdpi\\ic_attach_black.png"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_groupsearch_black.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_groupsearch_black.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_participant_add.xml.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\row_participant_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_person_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_person_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_person_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-hdpi\\ic_add_person_white.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_attach_black.png.flat",
@@ -184,6 +224,10 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xhdpi\\ic_profile_black.png"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_person_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_person_white.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_edit_white.xml.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_edit_white.xml"
     },
@@ -194,6 +238,10 @@
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_group_white.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xhdpi\\ic_group_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -216,6 +264,10 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_send.png"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_default_img.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-mdpi\\ic_default_img.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_black.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_profile_black.png"
     },
@@ -234,6 +286,10 @@
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mahasiswa.jpg.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable\\mahasiswa.jpg"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_default_img.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-hdpi\\ic_default_img.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_group_white.png.flat",
@@ -256,8 +312,20 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_image.png"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_white.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xhdpi\\ic_done_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_white.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_send.png.flat",
@@ -288,8 +356,16 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\activity_register2.xml"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_person_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_person_white.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_person_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_person_white.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_key.xml.flat",
@@ -324,6 +400,10 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\activity_dashboard2.xml"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_white.xml.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_white.xml"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
@@ -334,6 +414,10 @@
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_groupadd_white.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_groupadd_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_default_img.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_default_img.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_default_img_white.png.flat",
@@ -396,12 +480,28 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_black.xml"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-mdpi\\ic_add_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_white.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_group_primary.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-hdpi\\ic_group_primary.png"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_default_img.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_default_img.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_default_img.xml.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_default_img.xml"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_attach_black.png.flat",
@@ -434,6 +534,10 @@
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_white.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-mdpi\\ic_done_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_person_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-mdpi\\ic_add_person_white.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_default_img_white.png.flat",
@@ -496,6 +600,10 @@
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-hdpi\\ic_groupsearch_black.png"
     },
     {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_default_img.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xhdpi\\ic_default_img.png"
+    },
+    {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_group_primary.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-mdpi\\ic_group_primary.png"
     },
@@ -522,6 +630,10 @@
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_group_chat.xml.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\layout\\activity_group_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_white.png.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_white.png"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choose_user.xml.flat",
@@ -566,6 +678,10 @@
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_groupadd_white.png.flat",
         "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_groupadd_white.png"
+    },
+    {
+        "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_person_white.xml.flat",
+        "source": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_person_white.xml"
     },
     {
         "merged": "C:\\Users\\khair\\AndroidStudioProjects\\Asknonim(Asli)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_groupadd_black.png.flat",

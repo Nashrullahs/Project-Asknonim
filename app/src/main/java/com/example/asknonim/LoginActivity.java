@@ -24,8 +24,11 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 
@@ -49,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
 
         //Actionbar and its title
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Login");
+        actionBar.setTitle("");
         //enable back button
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
@@ -213,10 +216,32 @@ public class LoginActivity extends AppCompatActivity {
                                 //put data within hashmap in database
                                 reference.child(uid).setValue(hashMap);
                             }
+                            DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("User");
+                            userRef.orderByChild("uid").equalTo(user.getUid())
+                                    .addValueEventListener(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
+                                    for (DataSnapshot snapshot : dataSnapshot.getChildren()){
+
+                                        String z_name=snapshot.child("level").getValue().toString();
+                                        if (z_name.equals("Anonim")){
+                                            startActivity(new Intent(LoginActivity.this, Dashboard2Activity.class));
+                                            finish();
+                                        }else{
+                                            startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
+                                            finish();
+                                        }
+
+                                    }
+
+                                }
+                                @Override
+                                public void onCancelled(@NonNull DatabaseError databaseError) {
+                                }
+                            });
                             //user is logged in,so start LoginActivity
-                            startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
-                            finish();
+
                         } else {
                             //dismiss progres dialog
                             pd.dismiss();

@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -21,6 +24,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -31,14 +37,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
+        <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Class" />
-        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1lHJGrrM6C05EDyO8Z7b9KXX87m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,23 +64,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.1091681687">
+      <recent name="com.example.asknonim" />
+    </key>
     <key name="android.template.-902452363">
       <recent name="com.example.asknonim" />
     </key>
     <key name="android.template.1678658952">
       <recent name="com.example.asknonim" />
     </key>
-    <key name="android.template.1698133776">
+    <key name="android.template.1042452495">
       <recent name="com.example.asknonim" />
     </key>
-    <key name="android.template.1404861418">
+    <key name="android.template.1698133776">
       <recent name="com.example.asknonim" />
     </key>
     <key name="android.template.539749815">
@@ -84,7 +96,7 @@
       <recent name="C:\Users\khair\AndroidStudioProjects\Asknonim(Asli)\app\src\main\res\drawable" />
       <recent name="C:\Users\khair\AndroidStudioProjects\Asknonim\app\src\main\res\drawable" />
     </key>
-    <key name="android.template.1091681687">
+    <key name="android.template.1404861418">
       <recent name="com.example.asknonim" />
     </key>
     <key name="android.template.735660525">
@@ -117,7 +129,7 @@
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
         <option name="SHOW_STATIC_VARS" value="true" />
@@ -157,6 +169,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -191,11 +204,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609056617574" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1608470420752">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1609485920207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608470420752" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608204660657" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609485920207" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609049060140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,45 +222,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607402707716" />
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1609065579969">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1609606584287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608390941640" />
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609065579969" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609606584287" />
     <state x="644" y="259" key="AndroidCreateXmlResourceDialog" timestamp="1607876351074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="644" y="259" key="AndroidCreateXmlResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1607876351074" />
     <state x="805" y="327" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607849298210" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1608392395855">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1609315239785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608392395855" />
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607486456681" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1609067643672">
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609315239785" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1609611933927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553768" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1609067643672">
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1609611933927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553768" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1609067643672">
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1609611933927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553767" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1609067643672">
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1609611933927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-87.1360.728@0.0.1920.1040" timestamp="1608474491755" />
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.163.1360.728@0.0.1920.1040" timestamp="1608047553768" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609067643672" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609611933927" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1608376739101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -269,9 +282,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607403818110" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609062277755">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609487077425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609062277755" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609487077425" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/asknonim/ModelGroupChat.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

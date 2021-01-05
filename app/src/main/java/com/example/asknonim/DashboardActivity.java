@@ -16,8 +16,11 @@ import android.widget.TextView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -80,20 +83,7 @@ public class DashboardActivity extends AppCompatActivity {
                 }
             };
 
-    private void checkUserStatus(){
-        //get current user
-        FirebaseUser user = firebaseAuth.getCurrentUser();
-        if (user != null){
-            //user is signed in stay there
-            //set email of logged in user
-            //mProfileTv.setText(user.getEmail());
-        }
-        else {
-            //user not signed in,go to main activity
-            startActivity(new Intent(DashboardActivity.this,MainActivity.class));
-            finish();
-        }
-    }
+
 
     @Override
     public void onBackPressed() {
@@ -104,7 +94,6 @@ public class DashboardActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         //check on start of app
-        checkUserStatus();
         super.onStart();
     }
 
@@ -123,7 +112,8 @@ public class DashboardActivity extends AppCompatActivity {
         int id = item.getItemId();
         if (id == R.id.action_logout){
             firebaseAuth.signOut();
-            checkUserStatus();
+            startActivity(new Intent(DashboardActivity.this,MainActivity.class));
+            finish();
         }
         else if(id == R.id.action_create_group){
             //go to Group Create Activity

@@ -120,6 +120,7 @@ public class Register2Activity extends AppCompatActivity {
                             hashMap.put("email",email);
                             hashMap.put("uid",uid);
                             hashMap.put("name","Anonim");
+                            hashMap.put("level","Anonim");
 
                             //firebase database instance
                             FirebaseDatabase database = FirebaseDatabase.getInstance();

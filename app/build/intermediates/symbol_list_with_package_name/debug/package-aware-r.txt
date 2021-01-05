@@ -1005,6 +1005,8 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
+color ic_launcher_background_asknonim
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1601,7 +1603,10 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_key
 drawable ic_add_image
+drawable ic_add_person_white
+drawable ic_add_white
 drawable ic_attach_black
+drawable ic_default_img
 drawable ic_default_img_white
 drawable ic_done_white
 drawable ic_edit_white
@@ -1703,6 +1708,7 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
+id action_add_participant
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1846,6 +1852,7 @@ id group_divider
 id grouping
 id groups
 id groupsRv
+id groupsSearch
 id have_accountTv
 id hideable
 id home
@@ -1972,6 +1979,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -2012,6 +2020,7 @@ id startHorizontal
 id startVertical
 id staticLayout
 id staticPostLayout
+id statusTv
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -2142,6 +2151,7 @@ layout activity_dashboard
 layout activity_dashboard2
 layout activity_group_chat
 layout activity_group_create
+layout activity_group_participant_add
 layout activity_login
 layout activity_login2
 layout activity_main
@@ -2165,6 +2175,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
 layout fragment_profile
+layout fragment_search
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2211,6 +2222,7 @@ layout notification_template_part_time
 layout row_groupchat_left
 layout row_groupchat_right
 layout row_groupchats_list
+layout row_participant_add
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2234,6 +2246,7 @@ menu menu2_nav
 menu menu_main
 menu menu_nav
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

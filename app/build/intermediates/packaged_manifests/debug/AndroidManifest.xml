@@ -25,6 +25,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Asknonim" >
+        <activity android:name="com.example.asknonim.GroupParticipantAddActivity" />
         <activity android:name="com.example.asknonim.Dashboard2Activity" />
         <activity android:name="com.example.asknonim.Login2Activity" />
         <activity android:name="com.example.asknonim.ChooseUserLoginActivity" />
@@ -32,16 +33,16 @@
         <activity android:name="com.example.asknonim.ChooseUserRegisterActivity" />
         <activity android:name="com.example.asknonim.GroupChatActivity" />
         <activity android:name="com.example.asknonim.GroupCreateActivity" />
+        <activity android:name="com.example.asknonim.DashboardActivity" />
         <activity android:name="com.example.asknonim.LoginActivity" />
-        <activity android:name="com.example.asknonim.DashboardActivity" >
+        <activity android:name="com.example.asknonim.RegisterActivity" />
+        <activity android:name="com.example.asknonim.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.asknonim.RegisterActivity" />
-        <activity android:name="com.example.asknonim.MainActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
